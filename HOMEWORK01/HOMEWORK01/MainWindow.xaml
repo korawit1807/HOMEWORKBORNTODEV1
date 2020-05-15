@@ -1,0 +1,25 @@
+﻿<Window x:Class="HOMEWORK01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HOMEWORK01"
+        mc:Ignorable="d"
+        Title="คำนวนเงิน" Height="450" Width="800">
+    <Grid Margin="0,0,0,1">
+        <TextBlock HorizontalAlignment="Left" Margin="41,56,0,319" TextWrapping="Wrap" Text="รายรับ" VerticalAlignment="Center" Height="43" Width="157" FontSize="36" TextAlignment="Center" LineHeight="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,131,0,0" TextWrapping="Wrap" Text="รายจ่าย" VerticalAlignment="Top" Height="39" Width="157" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="472,56,0,0" TextWrapping="Wrap" Text="บาท/วัน" VerticalAlignment="Top" Height="43" Width="157" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="472,127,0,0" TextWrapping="Wrap" Text="บาท/วัน" VerticalAlignment="Top" Height="43" Width="157" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,194,0,0" TextWrapping="Wrap" Text="ราคาของที่อยากได้" VerticalAlignment="Top" Height="43" Width="265" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="613,194,0,0" TextWrapping="Wrap" Text="บาท" VerticalAlignment="Top" Height="43" Width="121" FontSize="36"/>
+        <TextBox x:Name="txtCome" HorizontalAlignment="Left" Height="43" Margin="198,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" FontSize="36" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtOut" HorizontalAlignment="Left" Height="43" Margin="198,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" FontSize="36" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtNeed" HorizontalAlignment="Left" Height="43" Margin="341,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" FontSize="36" FlowDirection="RightToLeft"/>
+        <Button x:Name="BTN1" Content="คำนวน" HorizontalAlignment="Left" Margin="71,307,0,0" VerticalAlignment="Top" Width="153" Height="63" FontSize="30" Click="BTN1_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="240,313,0,0" TextWrapping="Wrap" Text="ต้องเก็บเงินอีก" VerticalAlignment="Top" Height="43" Width="206" FontSize="36"/>
+        <TextBox x:Name="txtSav" HorizontalAlignment="Left" Height="43" Margin="446,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" FontSize="36" FlowDirection="RightToLeft" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="712,313,0,0" TextWrapping="Wrap" Text="บาท" VerticalAlignment="Top" Height="43" Width="70" FontSize="36"/>
+
+    </Grid>
+</Window>
